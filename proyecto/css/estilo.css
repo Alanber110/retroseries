@@ -1,0 +1,135 @@
+.footer div{
+    background-color: #a3a3a3;
+}
+.footer h4{
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+.parte1 h3{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 100%;
+    font-style: italic;
+    color: #ffffff;
+    background-color: #ff8800;
+    border-radius: 15px;
+    border: 3px double #ffffff;
+  
+}
+.parte1 p{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 100%;
+    font-style: italic;
+    color: #ffffffd3;
+    background-color: #15ff00b0;
+    border-radius: 15px;
+    border: 3px double #ffffff;
+}
+.parte1 img{
+    width: 100%;
+    height: 100%;
+}
+main{
+    color: rgb(219, 219, 219);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.introduccion h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+}
+.introduccion h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.introduccion p{
+    color: #cfcece;
+}
+.introduccion p img{
+    margin: 2%;
+    width: 40%;
+    height: 40%;
+}
+body{
+    background-color: black;
+    
+}
+nav{
+   
+    text-align: right;
+    padding:10px 50px 10px 10px;
+}
+h1{
+    font-size: 500%;
+    text-align: left;
+    font-style:inherit;
+    color: #ffffff;
+    padding:0px 0px 0px 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow:-4px -4px 4px rgba(0, 26, 255, 0.733);
+}
+nav>a{
+    text-decoration: none;
+    padding: 1%;
+    font-weight: 100;
+    font-size: 115%;
+    color: #a3a3a3;
+    background-color: #000000;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav > a:hover{
+	text-decoration: underline;
+}
+div.parte1{
+    float: left;
+    width: 15%;
+    height: 100%;
+    margin: 20px;
+    margin-left: 5%;
+    }
+div.parte2{
+    
+    float: right;
+    width: 75%;
+    height: 100%;
+    }
+.slider{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.slider ul{
+    display: flex;
+    animation: cambio 17s infinite alternate linear;
+    width: 400%;
+}
+.slider li{
+    width: 100%;
+    list-style:none;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+@keyframes cambio{
+    0%{margin-left:0;}
+    20%{margin-left:0;}
+    25%{margin-left:-100%;}
+    45%{margin-left:-100%;}
+    50%{margin-left:-200%;}
+    70%{margin-left:-200%;}
+    75%{margin-left:-300%;}
+    100%{margin-left:-300%;}
+}
+
